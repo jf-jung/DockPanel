@@ -7,11 +7,14 @@
         mc:Ignorable="d"
         Title="DockPanel" Height="350" Width="525">
     <DockPanel LastChildFill="True">
-        <Button Content="Dock=Left" DockPanel.Dock="Left"></Button>
+        <Button Content="Dock=Left #1" DockPanel.Dock="Left"></Button>
+        <Button Content="Dock=Left #2" DockPanel.Dock="Left"></Button>
+        <Button Content="Dock=Left #3" DockPanel.Dock="Left"></Button>
         <Button Content="Dock=Right" DockPanel.Dock="Right"></Button>
         <Button Content="Dock=Top" DockPanel.Dock="Top"></Button>
         <Button Content="Dock=Bottom" DockPanel.Dock="Bottom"></Button>
         <Button Content="LastChildFill=True"></Button>
     </DockPanel>
+
 
 </Window>
